@@ -24,7 +24,7 @@ jobs:
       # `pnpm install`, setup-node@v5 (which defaults package-manager-cache: true and detects the
       # `packageManager: pnpm` field) tries to save a pnpm store that was never populated, and the post-job
       # cache-save fails with "Path Validation Error" — reddening an otherwise-successful release.
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: "24" # for the dep-free check-plugin gate
           package-manager-cache: false

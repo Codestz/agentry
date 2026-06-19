@@ -19,7 +19,7 @@ jobs:
       - name: Set up pnpm (version from the package.json `packageManager` field)
         uses: pnpm/action-setup@v4
 
-      - uses: actions/setup-node@v5
+      - uses: actions/setup-node@v6
         with:
           node-version: "24" # the memory MCP uses the built-in node:sqlite (Node ≥ 24)
           cache: pnpm
