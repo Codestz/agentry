@@ -17,7 +17,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       # The release is install-free — it ships the committed mem bundle and runs only the dep-free check-plugin
       # gate (node:* builtins). So set up node alone and DISABLE setup-node's package-manager cache: with no
