@@ -17,8 +17,8 @@
     "yaml": "^2.5.0"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.1.0",
     "@types/ws": "^8.5.0",
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.28.1"
   }
 }
