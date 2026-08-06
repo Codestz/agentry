@@ -13,12 +13,12 @@
     "@agentry/flow": "workspace:*",
     "@agentry/workbench-shared": "workspace:*",
     "chokidar": "^5.0.0",
-    "ws": "^8.18.0",
+    "ws": "^8.21.1",
     "yaml": "^2.5.0"
   },
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.1.2",
     "@types/ws": "^8.5.0",
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.28.1"
   }
 }
